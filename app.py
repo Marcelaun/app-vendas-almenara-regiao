@@ -157,7 +157,7 @@ if df is not None and not df.empty:
                         break 
                 
                 if not tem_zap:
-                    st.button("📞 Só Fixo", disabled=True, help=f"Tente ligar: {telefones[0]}", key=f"btn_fixo_{id_empresa}")
+                    st.button("📞 Só Fixo", disabled=True, help=f"Tente ligar: {telefones[0]}", key=f"btn_fixo_{i}")
 
 else:
     st.error("⚠️ Arquivo Excel não encontrado ou vazio.")
